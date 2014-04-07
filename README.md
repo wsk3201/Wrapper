@@ -27,7 +27,7 @@ Listen change event
 ```javascript
 
 a.b.on('change:c', function (v,pv) {
-  console.log('change can value: %s previous value: %s',v,pv);
+  console.log('change c value: %s previous value: %s',v,pv);
 });
 
 a.on('change:b', function (v,pv) {

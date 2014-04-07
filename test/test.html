@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <script src="../bower_components/lodash/dist/lodash.js"></script>
+  <script src="../wrapper.js"></script>
+  <script>
+      var wrap = Wrapper.Wrap;
+      var a = wrap({a: 1, b: {c: 3, d: 4}});
+      console.log(a._sub, a._raw);
+
+      a.b.on('change:c', function (v,pv) {
+        console.log('change can value: %s previous value: %s',v,pv);
+      });
+
+      a.on('change:b', function (v,pv) {
+        console.log('change b value: %s previous value: %s',v,pv);
+      });
+
+      a.b.c = 5;
+
+      a.b = 1;
+
+      a.b = [1, 2, 3];
+
+      console.log(a._sub, a._raw);
+
+  </script>
+  <title></title>
+</head>
+<body>
+
+</body>
+</html>

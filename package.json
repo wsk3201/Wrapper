@@ -1,0 +1,26 @@
+{
+  "name": "wrapper",
+  "version": "0.0.1",
+  "description": "Object event Wrapper",
+  "main": "wrapper.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wsk3201/Wrapper.git"
+  },
+  "author": "mercury landed <wsk3201@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wsk3201/Wrapper/issues"
+  },
+  "homepage": "https://github.com/wsk3201/Wrapper"
+}

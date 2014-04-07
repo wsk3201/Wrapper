@@ -1,0 +1,22 @@
+{
+  "name":         "wrapper",
+  "version":      "0.0.1",
+  "authors":      [
+    "mercury landed <wsk3201@gmail.com>"
+  ],
+  "moduleType":   [
+    "amd",
+    "node"
+  ],
+  "license":      "MIT",
+  "ignore":       [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}

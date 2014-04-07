@@ -3,9 +3,17 @@ Wrapper
 
 Object event Wrapper
 
----
-
 Wrapped raw object with a EventEmitter.You can use wrapped object as a raw object.
+
+Install
+------
+bower
+
+    bower install wrapperjs
+
+npm
+    
+    npm install wrapperjs
 
 Wrap object
 ------

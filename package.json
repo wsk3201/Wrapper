@@ -1,5 +1,5 @@
 {
-  "name": "wrapper",
+  "name": "wrapperjs",
   "version": "0.0.1",
   "description": "Object event Wrapper",
   "main": "wrapper.js",
